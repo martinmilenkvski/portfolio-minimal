@@ -33,18 +33,23 @@ export default function HomePage() {
       </div>
 
       {/* Bottom section for the hero image */}
-      <div className="mt-16">
-        <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-          {" "}
-          {/* 16:9 Aspect Ratio */}
-          <Image
-            src="/images/kontrans1.jpg" // The path to your image in the public folder
-            alt="Projects"
-            fill // The 'fill' prop makes the image fill its parent container
-            className="object-cover" // Ensures the image covers the area without distortion
-          />
+      <div className="mt-16 p-8">
+        <div >
+          <div
+            className="relative w-full p-8"
+            style={{ paddingTop: "56.25%" }}
+          >
+        
+
+            <Image
+              src="/images/kontrans1.jpg"
+              alt="Projects"
+              fill 
+              className="object-cover rounded-2xl" 
+            />
+          </div>
         </div>
-        <div className="flex justify-between items-center bg-white p-2 border-t">
+        <div className="flex justify-between items-center r bg-white p-2 border-t">
           <span className="font-bold">Projects</span>
           <span className="text-sm text-gray-500">Web developement</span>
         </div>
