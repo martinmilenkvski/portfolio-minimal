@@ -21,12 +21,20 @@ export default function HomePage() {
         {/* Main Heading */}
         <div className="w-3/4 flex justify-center items-center">
           <h1 className="text-5xl font-bold leading-tight text-left">
-            I'M MARTIN, AN WEB
+            I'M MARTIN, AN{" "}
+            <span>
+              <img
+                src="/images/kontrans1.jpg"
+                alt="Projects"
+                width={80}
+                height={80}
+                className="object-cover  inline-block mb-3"
+              />
+            </span>
             <br />
             DESIGNER AND DEVELOPER
             <br />
-            WORKING WITH CLIENTS
-            <br />
+            WORKING WITH CLIENTS <br />
             FROM AROUND THE WORLD.
           </h1>
         </div>
@@ -34,18 +42,13 @@ export default function HomePage() {
 
       {/* Bottom section for the hero image */}
       <div className="mt-16 p-8">
-        <div >
-          <div
-            className="relative w-full p-8"
-            style={{ paddingTop: "56.25%" }}
-          >
-        
-
+        <div>
+          <div className="relative w-full p-8" style={{ paddingTop: "56.25%" }}>
             <Image
               src="/images/kontrans1.jpg"
               alt="Projects"
-              fill 
-              className="object-cover rounded-2xl" 
+              fill
+              className="object-cover rounded-2xl"
             />
           </div>
         </div>
