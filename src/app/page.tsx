@@ -29,6 +29,7 @@ export default function HomePage() {
                 width={80}
                 height={80}
                 className="object-cover  inline-block mb-3"
+                style={{ transform: "rotate(10deg)" }}
               />
             </span>
             <br />
